@@ -37,18 +37,27 @@ separate {
 }
 
 h2 {
-  border: 1px solid #000;
+  border: 5px solid #000;
   height: 170px;
   width: 170px;
   text-align: center;
   background-color: white;
+  border-color: #EAFF22;
 }
 
 h3 {
+  font-family: "Orbitron";
+  text-align: center;
+  color: #AEA8AF;
+  font-size: 30px;
+}
+
+h4 {
   font-family: "Inconsolata";
   text-align: center;
-  color: white;
-  font-size: 30px;
+  color: #AEA8AF;
+  font-size: 40px;
+  margin: 5px;
 }
 
 h1 {color: #FF0000;
@@ -57,11 +66,12 @@ h1 {color: #FF0000;
   font-family: "Inconsolata"; 
   font-size:100px;
   border: 2px solid #ccc;
+  border-color: #EAFF22;
+
 } 
 
 h2 {color: #000099;
-
-font-family: "Orbitron"; 
+  font-family: "Inconsolata";
 }
 
 img {

@@ -17,7 +17,7 @@ $(function(){
       $equalsButton = $('#equals'),
       $result       = $('#result');
 var myCounter = new Countdown({  
-    seconds:60,  // number of seconds to count down
+    seconds:99,  // number of seconds to count down
     onUpdateStatus: function(sec){$cdReport.text(sec);}, // callback for each second
     onCounterEnd: function(){         console.log("BOOM");
         window.location.href = "boom.html";
