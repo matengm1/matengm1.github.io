@@ -11,3 +11,7 @@ img{
   border-style: solid;
   border-width: 10px;
 }
+.crop{
+  width:228px;
+  height:228px;
+}
